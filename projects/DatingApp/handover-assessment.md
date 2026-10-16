@@ -4,7 +4,7 @@
 **Assessor**: Mahmoud Sobhy
 **Status**: handover
 
-Outcome: DatingApp is a working Angular 20 and ASP.NET Core 9 reference app on the same stack as this portfolio's product. The API builds clean and has no known vulnerable NuGet packages. Harnessability is LOW because the repo has no tests and no lint baseline. The repo has no license, so its code cannot go into a commercial product without the author's permission. The next action is to decide how this portfolio will use the repo: as a reference, or as a base for code.
+Outcome: DatingApp is a working Angular 20 and ASP.NET Core 9 reference app. The API builds clean and has no known vulnerable NuGet packages. Harnessability is LOW because the repo has no tests and no lint baseline. The repo has no license, so its code cannot go into a commercial product without the author's permission. The next action is to decide how this portfolio will use the repo: as a reference, or as a base for code.
 
 ## Origin
 
@@ -139,7 +139,8 @@ Two of five dimensions are in the top bucket, so the verdict is `low`. See AgDR-
 
 ```yaml
 - name: DatingApp
-  repo: TryCatchLearn/DatingApp
+  repo: mahmoudsobhy74/DatingApp-1
+  public: true
   workspace: workspace/DatingApp
   docs: projects/DatingApp
   status: handover
@@ -174,7 +175,7 @@ File these items as issues in the fork, `mahmoudsobhy74/DatingApp-1`, never in t
 
 ## Open Questions
 
-- What is the purpose of this repo in the portfolio? It matches the product stack, but it is a dating app owned by a third party.
+- What is the purpose of this repo in the portfolio? It is a dating app owned by a third party.
 - Will the author grant a license? With no license, the code is all rights reserved by default.
 - If you adopt it as a base, will you fork it, or start a fresh repo and port selected patterns?
 - Do the `PhotoManagementChallenge` and `dokploy` branches hold work that matters? This read covered `main` only.

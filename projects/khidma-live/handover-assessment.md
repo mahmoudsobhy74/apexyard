@@ -26,7 +26,7 @@ Outcome: khidma-live is a small, healthy demo module. All 27 tests pass. Harness
 - Test framework: Node built-in test runner (`node --test`)
 - CI: none. The repo has no `.github/workflows/` directory.
 
-This stack does not match the portfolio's `onboarding.yaml` stack (Angular, ASP.NET Core, SQL Server). See Open Questions.
+This stack differs from the portfolio's main product stack. See Open Questions.
 
 ### Build status
 
@@ -127,6 +127,7 @@ No UI, CI, or deployment exists yet, so the frontend, platform, and SRE roles do
 ```yaml
 - name: khidma-live
   repo: atlas-apex/khidma-live
+  public: true
   workspace: workspace/khidma-live
   docs: projects/khidma-live
   status: handover
@@ -159,7 +160,7 @@ The repo owner filed items 3 to 7 during the 2026-10-15 handover. Items 1 and 2 
 
 ## Open Questions
 
-- How does this repo relate to the portfolio's product? `onboarding.yaml` describes a property management SaaS built on Angular, ASP.NET Core, and SQL Server. This repo is a JavaScript demo of a government e-services portal. Is it a practice project, or a real portfolio project?
+- How does this repo relate to the portfolio's main product? This repo is a JavaScript demo of a government e-services portal. Is it a practice project, or a real portfolio project?
 - Will `atlas-apex` give this account write access, or will this portfolio only observe the repo?
 - Who owns the KH-109 decision about which reviewer gets a resubmitted request?
 - Is the 2026-10-15 handover's `AGENTS.md` still accurate after PR #15 merges?
